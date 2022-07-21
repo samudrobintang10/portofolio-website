@@ -4,7 +4,7 @@ import BintangMain from "/public/images/bintang-main.jpg";
 
 export default function Hero() {
   return (
-    <div className="hero container-page grid gap-y-6 lg:flex lg:justify-between">
+    <div className="hero container-page grid gap-y-6 lg:flex lg:justify-between mb-16">
       <div className="cta sm:w-1/2">
         <div className="grid gap-y-1 lg:gap-y-3 mb-4 lg:mb-7">
           <h2 className=" font-pangolin text-[32px] lg:text-5xl font-normal text-black">
