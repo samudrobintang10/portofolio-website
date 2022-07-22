@@ -6,7 +6,7 @@ import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 export default function MainHeader() {
   return (
-    <div className="mainHeader container-page py-6 flex justify-between items-center lg:mb-16 mb-4">
+    <div className="mainHeader container-page py-6 flex justify-between items-center lg:mb-16 mb-2">
       <div className="logo relative">
         <div className="lg:hidden grid items-center">
           <Image
