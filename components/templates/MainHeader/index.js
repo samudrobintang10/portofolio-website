@@ -25,16 +25,16 @@ export default function MainHeader() {
           <FontAwesomeIcon icon={faBars} className=" text-2xl px-2" />
         </div>
         <div className="hidden lg:flex lg:gap-x-5">
-          <p className="text-lg text-primary-main font-nunito font-normal">
+          <p className="text-lg text-primary-main font-nunito font-medium">
             Home
           </p>
-          <p className="text-lg text-primary-main font-nunito font-normal">
+          <p className="text-lg text-primary-main font-nunito font-medium">
             About Me
           </p>
-          <p className="text-lg text-primary-main font-nunito font-normal">
+          <p className="text-lg text-primary-main font-nunito font-medium">
             My Things
           </p>
-          <p className="text-lg text-primary-main font-nunito font-normal">
+          <p className="text-lg text-primary-main font-nunito font-medium">
             Contact Me
           </p>
         </div>

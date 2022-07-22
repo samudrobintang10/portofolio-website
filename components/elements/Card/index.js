@@ -2,8 +2,8 @@ import Image from "next/image";
 
 export default function Card({ image, title, desc }) {
   return (
-    <div className="card py-6 px-11 bg-secondary-light rounded-2xl border border-black grid gap-y-8">
-      <div className="px-10 lg:px-10 xl:px-16 pt-6 md:px-10 ">
+    <div className="card py-6 lg:py-12 px-11 bg-secondary-light rounded-2xl border border-black grid gap-y-8 w-72 sm:w-full">
+      <div className="px-10 lg:px-10 xl:px-16 pt-6 md:px-12 sm:px-8 ">
         <Image
           src={image}
           alt="image-placholder"

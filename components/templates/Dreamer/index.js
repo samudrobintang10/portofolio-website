@@ -5,11 +5,11 @@ import ImageBugs from "/public/images/any-bugs.png";
 
 export default function Dreamer() {
   return (
-    <div className="dreamer container-page grid gap-y-6">
+    <div className="dreamer container-page grid gap-y-6 lg:gap-y-16 mb-16 lg:mb-36">
       <h2 className=" font-bebasNeue font-normal text-4xl text-black tracking-wider lg:text-center">
-        FRONT-END DEVELOPER DREAMER
+        FRONT-END WEB DEVELOPER DREAMER
       </h2>
-      <div className="row-card grid lg:grid-cols-3 sm:grid-cols-2 gap-6">
+      <div className="row-card grid md:grid-cols-2 lg:grid-cols-3 gap-6 justify-center sm:px-36 md:px-0">
         <Card
           image={ImageLive}
           title="Live to code"
