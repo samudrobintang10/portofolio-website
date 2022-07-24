@@ -14,7 +14,7 @@ export default function Hero() {
             Bintang Samudro
           </h2>
         </div>
-        <p className=" font-nunito font-normal text-sm leading-5 mb-6 lg:text-base">
+        <p className=" font-nunito font-normal text-sm leading-6 mb-6 lg:text-base">
           Final Year Student at University of Indonesia majoring in Information
           Systems. Adaptive to the new environment and enjoyable to get to know
           new things and are active in exploring new skills.

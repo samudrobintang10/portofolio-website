@@ -1,8 +1,7 @@
 import logoSmallDark from "/public/images/bintang-small-dark.svg";
 import logoBigDark from "/public/images/bintang-big-dark.svg";
 import Image from "next/image";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars } from "@fortawesome/free-solid-svg-icons";
+import Sidebar from "../../elements/Sidebar";
 
 export default function MainHeader() {
   return (
@@ -21,9 +20,7 @@ export default function MainHeader() {
         </div>
       </div>
       <div className="menu">
-        <div className="lg:hidden">
-          <FontAwesomeIcon icon={faBars} className=" text-2xl px-2" />
-        </div>
+        <Sidebar />
         <div className="hidden lg:flex lg:gap-x-5">
           <p className="text-lg text-primary-main font-nunito font-medium">
             Home
